@@ -6,7 +6,7 @@ metadata:
     app: random
   namespace: default
 spec:
-  replicas: 1
+  replicas: 3
   selector:
     matchLabels:
       app: random
@@ -18,7 +18,7 @@ spec:
   template:
     metadata:
       labels:
-        app:  
+        app: random 
     spec:
       containers:
       - image: docker.io/vietcgi/random:latest 

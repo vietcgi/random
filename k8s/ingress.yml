@@ -12,4 +12,4 @@ spec:
       paths:
       - backend:
           serviceName: random
-          servicePort: 5000
+          servicePort: 80 
